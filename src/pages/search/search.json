@@ -1,0 +1,17 @@
+{
+    "arguments" : {
+        "searchInput" :"JBL"
+    },
+    
+    "selectors" : {
+        "button" : {
+        "searchBar" : "#search-input",
+        "searchBtn" : ".magnifierContainer"
+        },
+        "pageTitle" : ".inner-page-title",
+        "slectFilter"   :    "#products-filter-order-by",
+        "PriceSearchResults" : ".c2 span"
+
+        }
+    }
+

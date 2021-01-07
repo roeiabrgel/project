@@ -1,0 +1,16 @@
+{
+    "arguments": {
+        "email" : "roei963@gmail.com",
+        "password" : "Ww123456"
+    },
+
+    "selectors" : {
+        "email" : ".modal-content #login-email",
+        "password" : ".modal-content #login-password",
+        "loginBtn" : "#header-user-details-container #login-open",
+        "submit": ".modal-body .button-design-1"
+    },
+        "usernameTitle":{
+        "h1": "#header-user-details-container>span:nth-child(1)"
+        }
+    }
