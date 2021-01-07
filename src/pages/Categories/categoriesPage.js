@@ -4,6 +4,7 @@ const categoriesData = require("./categoriesData.json");
 
 class categoriesPage extends CyDriverInit  {
     constructor() { 
+        
         super();
     }
 
