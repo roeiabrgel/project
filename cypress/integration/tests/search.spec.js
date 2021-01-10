@@ -58,7 +58,6 @@ describe("search", () => {
                 it("Make sure the results are sorted from high to low",()=>{
 
                     expect((searchTest.arrayComparison(arr))===true);
-                    console.log(searchTest.arrayComparison(arr))
                  
                    });
 

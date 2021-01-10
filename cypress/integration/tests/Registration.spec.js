@@ -53,8 +53,7 @@ describe("Registration", () => {
 
     it("Make sure we move to the home page", () => {
 
-        // registerTest.isElementContains(logInFiledData.selectors.loginBtn,"התחברות");
-        registerTest.containOnElement(registrFiledData.selectors.loginBtn,"התחברות");
+        registerTest.containOnElement(registrFiledData.selectors.button.loginBtn,"התחברות");
 
     });
 

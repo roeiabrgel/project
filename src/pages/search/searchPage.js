@@ -8,9 +8,11 @@ class searchPage extends CyDriverInit  {
     }
       
     verificationSorting () {
-let x = [];
-let txt;
-let val;
+        
+       let x = [];
+       let txt;
+       let val;
+
         this.driver.get(searchData.selectors.PriceSearchResults)
         .each(($li, index, $lis) => {
                 txt =  $li.text();

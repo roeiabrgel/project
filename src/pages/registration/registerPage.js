@@ -6,10 +6,6 @@ class registerPage extends CyDriverInit {
         super();
     }
 
-    // fillRegistrationForm( data = {} ) {
-    //     if(Object.keys(data).length > 0) {
-    //         registrFiledData.arguments.applicationForm = data;
-    //     }
     fillRegistrationForm() {
 
         this.sendString(registrFiledData.selectors.applicationForm.username, registrFiledData.arguments.applicationForm.userName);
@@ -19,10 +15,8 @@ class registerPage extends CyDriverInit {
         this.sendString(registrFiledData.selectors.applicationForm.phoneNumber, registrFiledData.arguments.applicationForm.phoneNumber);
 
 
-        // this.clickOnBtn(registrFiledData.selectors.applicationForm.cheakBox);
         
         this.checkBox(registrFiledData.selectors.applicationForm.cheakBox);
-        // cy.get(".modal-content .checkbox :nth-child(1)#register-popup-isConfirm").check({force: true});
         this.clickOnBtn(registrFiledData.selectors.button.sumbitCreationBtn, {contains : "הרשמה"});
     }
 
@@ -37,14 +31,6 @@ class registerPage extends CyDriverInit {
     disconnectFromTheUser() {
         this.clickOnBtn(registrFiledData.selectors.logoutBtn, {contains : "התנתקות"});
         return this;
-    }
-
-    verifyButtonsExistance() {
-        
-    }
-
-    verifyFieldsExistance() {
-
     }
 
 }

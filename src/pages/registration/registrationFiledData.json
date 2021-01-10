@@ -4,20 +4,23 @@
         "applicationForm" : {
             "userName" : "Roei",
             "lastName" : "aba",
-            "email" : "roei963@gmail.com",
+            "email" : "roei0101@gmail.com",
             "password" : "Ww123456",
             "phoneNumber" : "0555555555"
         } 
     },
     
     "selectors" : {
+
+        "logoutBtn" : "#logout-open",
+
         "button" :{
         "loginBtn" : "#login-open",
         "registerBtn" : "#register-open",
         "sumbitCreationBtn" : ".button-design-1",
         "registerPageHeading" : ".modal-title"
         },
-        "logoutBtn" : "#logout-open",
+
         "applicationForm" : {
             "username" : ".modal-dialog #register-customer-name",
             "lastName" : ".modal-dialog #register-customer-last-name",
