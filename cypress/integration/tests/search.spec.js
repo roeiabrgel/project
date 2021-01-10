@@ -56,11 +56,9 @@ describe("search", () => {
       
               })
                 it("Make sure the results are sorted from high to low",()=>{
-      
 
-                    let bool = searchnpxTest.arrayComparison(arr);
-                    console.log(arr)
-                    console.log(bool)
+                    expect((searchTest.arrayComparison(arr))===true);
+                    console.log(searchTest.arrayComparison(arr))
                  
                    });
 

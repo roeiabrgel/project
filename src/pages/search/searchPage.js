@@ -24,22 +24,21 @@ let val;
     }
 
     arrayComparison (arr){
-        let bool = true;
         let ContValue ;
-        let  PreviousValue =0 ;
+        let  PreviousValue =arr[0] ;
     
-        for (let index = 0; index < arr.length && bool == true; index++) {
+        for (let index = 1; index < arr.length; index++) {
     
             ContValue = arr[index];
     
-            if(index != 0 && ContValue > PreviousValue){
+            if(ContValue > PreviousValue){
     
-            bool = false;
-            console.log(arr[index]);
+                return false;
+            
             }
             PreviousValue = ContValue;
     }    
-    return bool;
+    return true;
     }
     
      
